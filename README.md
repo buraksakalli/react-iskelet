@@ -10,9 +10,17 @@ React Iskelet(iskelet means skeleton in Turkish), provides a tiny skeleton loade
 import Skeleton from "react-iskelet";
 
 <Skeleton type={option} />;
+<Skeleton type="text" count={5} />;
 ```
 
 Skeleton component extended with **div** element, allows manipulating **div** attributes like `className.`
+
+## Props
+
+| Props  | Type   | Required |
+| ------ | ------ | -------- |
+| type   | string | ✓        |
+| count? | number | ✖        |
 
 ## Available Types
 
@@ -21,7 +29,7 @@ Skeleton component extended with **div** element, allows manipulating **div** at
 | text      |
 | title     |
 | thumbnail |
-| image     |
+| avatar    |
 
 ## Contributing
 
