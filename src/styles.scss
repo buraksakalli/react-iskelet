@@ -1,0 +1,44 @@
+$bg__color: #d1d5db;
+$animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+.skeleton {
+  animation: $animation;
+}
+
+.skeleton__thumbnail {
+  border-radius: 0.5rem;
+  height: 6rem;
+  width: 6rem;
+  background-color: $bg__color;
+  animation: $animation;
+}
+
+.skeleton__text {
+  height: 0.75rem;
+  width: 100%;
+  border-radius: 0.375rem;
+  background-color: $bg__color;
+  animation: $animation;
+}
+
+.skeleton__title {
+  width: 50%;
+  height: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: 0.375rem;
+  background-color: $bg__color;
+  animation: $animation;
+}
+
+.skeleton__image {
+  border-radius: 9999px;
+  border-radius: 6rem;
+  background-color: $bg__color;
+  animation: $animation;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.5;
+  }
+}
