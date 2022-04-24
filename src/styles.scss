@@ -11,6 +11,7 @@ $animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   width: 6rem;
   background-color: $bg__color;
   animation: $animation;
+  margin-bottom: 1rem;
 }
 
 .skeleton__text {
@@ -19,6 +20,7 @@ $animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   border-radius: 0.375rem;
   background-color: $bg__color;
   animation: $animation;
+  margin-bottom: 0.5rem;
 }
 
 .skeleton__title {
@@ -30,11 +32,14 @@ $animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   animation: $animation;
 }
 
-.skeleton__image {
+.skeleton__avatar {
   border-radius: 9999px;
   border-radius: 6rem;
   background-color: $bg__color;
   animation: $animation;
+  margin-bottom: 1rem;
+  height: 6rem;
+  width: 6rem;
 }
 
 @keyframes pulse {

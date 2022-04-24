@@ -28,5 +28,19 @@
   "files": [
     "/dist",
     "package.json"
-  ]
+  ],
+  "homepage": "https://github.com/buraksakalli/react-iskelet",
+  "keywords": [
+    "react skeleton",
+    "react skeleton loader",
+    "react skeleton component",
+    "react skeleton component loader"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:buraksakalli/react-iskelet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/buraksakalli/react-iskelet/issues"
+  }
 }
