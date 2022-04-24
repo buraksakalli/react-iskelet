@@ -6,6 +6,12 @@ React Iskelet(iskelet means skeleton in Turkish), provides a tiny skeleton loade
 
 ![react-iskelet](https://user-images.githubusercontent.com/10114716/164973243-ae4807a0-4b77-4ba1-9c20-5600b17afa9a.gif)
 
+```bash
+yarn add react-iskelet
+#or
+npm i react-iskelet
+```
+
 ```tsx
 import Skeleton from "react-iskelet";
 
