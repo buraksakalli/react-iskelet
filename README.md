@@ -1,5 +1,7 @@
 # React Iskelet
 
+[![npm version](https://badge.fury.io/js/react-iskelet.svg)](https://badge.fury.io/js/react-iskelet)
+
 React Iskelet(iskelet means skeleton in Turkish), provides a tiny skeleton loaders.
 
 ## Usage
