@@ -1,6 +1,6 @@
 {
   "name": "react-iskelet",
-  "version": "1.0.9",
+  "version": "1.1.1",
   "author": "Burak SAKALLI <burak@buraksakalli.org>",
   "description": "A tiny react skeleton loader component",
   "main": "dist/index.js",
