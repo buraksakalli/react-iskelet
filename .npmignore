@@ -7,3 +7,4 @@ vite*
 tsconfig.json
 index.html
 .github/
+yarn.lock

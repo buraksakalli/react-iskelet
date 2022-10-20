@@ -4,9 +4,9 @@
 
 React Iskelet(iskelet means skeleton in Turkish), provides a tiny skeleton loaders.
 
-## Usage
+<img width="1296" alt="react-skeleton-loader" src="https://user-images.githubusercontent.com/10114716/196992207-ab629a0c-990e-4e63-b6bb-5952e1327da1.png">
 
-![react-iskelet](https://user-images.githubusercontent.com/10114716/164973243-ae4807a0-4b77-4ba1-9c20-5600b17afa9a.gif)
+## Usage
 
 ```bash
 yarn add react-iskelet
@@ -27,7 +27,7 @@ Skeleton component extended with **div** element, allows manipulating **div** at
 
 | Props  | Type   | Required |
 | ------ | ------ | -------- |
-| type   | string | ✓        |
+| type   | Type   | ✓        |
 | count? | number | ✖        |
 
 ## Available Types
