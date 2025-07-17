@@ -12,6 +12,7 @@
     "ci": "yarn install --frozen-lockfile"
   },
   "devDependencies": {
+    "@playwright/test": "^1.54.1",
     "@types/react": "^18.0.6",
     "@types/react-dom": "^18.0.2",
     "babel-core": "^6.26.3",

@@ -17,18 +17,29 @@ npm i react-iskelet
 ```tsx
 import Skeleton from "react-iskelet";
 
-<Skeleton type={option} />;
-<Skeleton type="text" count={5} />;
+// Basic usage
+<Skeleton type="text" />
+<Skeleton type="text" count={5} />
+
+// Custom dimensions
+<Skeleton type="avatar" width={80} height={80} />
+<Skeleton type="thumbnail" width="10rem" height="8rem" />
+<Skeleton type="text" width="50%" height="1rem" />
+
+// Multiple items with custom size
+<Skeleton type="text" count={3} width="90%" height="0.8rem" />
 ```
 
 Skeleton component extended with **div** element, allows manipulating **div** attributes like `className.`
 
 ## Props
 
-| Props  | Type   | Required |
-| ------ | ------ | -------- |
-| type   | Type   | ✓        |
-| count? | number | ✖        |
+| Props   | Type             | Required | Description |
+| ------- | ---------------- | -------- | ----------- |
+| type    | Type             | ✓        | Skeleton type (text, title, thumbnail, avatar) |
+| count?  | number           | ✖        | Number of skeleton items to render |
+| width?  | string \| number | ✖        | Custom width (px as number or any CSS value as string) |
+| height? | string \| number | ✖        | Custom height (px as number or any CSS value as string) |
 
 ## Available Types
 
